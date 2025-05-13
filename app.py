@@ -14,7 +14,7 @@ load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize ChatOpenAI with the API key
-chat = ChatOpenAI(temperature=0.6, openai_api_key=key)
+chat = ChatOpenAI(temperature=0.6, openai_api_key=openai_api_key)
 
 if 'flowmessages' not in st.session_state:
     st.session_state['flowmessages'] = [
