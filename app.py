@@ -1,7 +1,7 @@
-from langchain.llms import OpenAI
-from langchain.schema import AIMessage, HumanMessage, SystemMessage, BaseOutputParser
+from langchain_community.llms import OpenAI
+from langchain_community.schema import AIMessage, HumanMessage, SystemMessage, BaseOutputParser
 from langchain_community.chat_models import ChatOpenAI
-from langchain.prompts.chat import ChatPromptTemplate
+from langchain_community.prompts.chat import ChatPromptTemplate
 import streamlit as st
 
 import os
